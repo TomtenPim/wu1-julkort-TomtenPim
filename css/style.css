@@ -78,12 +78,16 @@ body{
   .flip-card-front {
     background-color: #bbb;
     color: black;
+    border: 15px solid;
+    border-color: #C90000;
   }
   
   /* Style the back side */
   .flip-card-back {
     background-color: #FFEFD0;
     color: white;
+    border: 15px solid;
+    border-color: #C90000;
     transform: rotateY(180deg);
     width: 600px;
     height: 409px;
